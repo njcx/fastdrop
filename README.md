@@ -8,3 +8,12 @@ loader 是使用 go +  github.com/cilium/ebpf 开发而成， 从redis 读取 ip
 
 
 使用场景： 抗D 、 WAF、 网关、 CDN， 等等
+
+
+
+ubuntu 24.04 下编译：
+
+    apt install  clang llvm git golang make gcc-multilib -y
+
+    make
+
