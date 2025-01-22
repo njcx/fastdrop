@@ -1,6 +1,6 @@
 ## fastdrop
 
-利用ebpf 开发的快速丢包工具， 快速丢弃指定ip请求的包，减少协议栈的计算开销，减少网卡的负载。
+利用ebpf 开发的快速丢包工具， 快速丢弃指定ip请求的包，减少协议栈的计算开销，减少CPU+网卡的负载。
 
 loader 是使用 go +  github.com/cilium/ebpf 开发而成， 从redis 读取 ip(source ip) + port(dest port), 
 
