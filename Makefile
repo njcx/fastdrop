@@ -1,6 +1,6 @@
-.PHONY: all run
+.PHONY: all
 
-all: tidy generate build run
+all: tidy generate build
 
 
 tidy:
